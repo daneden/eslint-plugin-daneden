@@ -1,4 +1,4 @@
-# eslint-config-daneden
+# eslint-plugin-daneden
 
 Additional rules for ESLint based on my personal preferences.
 
@@ -10,7 +10,7 @@ Additional rules for ESLint based on my personal preferences.
 ```json
 {
   ...
-  "extends": [
+  "plugins": [
     "daneden",
   ]
 }
@@ -22,7 +22,7 @@ Additional rules for ESLint based on my personal preferences.
 {
   ...
   "rules": {
-    "daneden/no-inferred-let": "warn",
+    "daneden/explicit-let-type": "warn",
   }
 }
 ```
@@ -32,3 +32,13 @@ Additional rules for ESLint based on my personal preferences.
 ### `explicit-let-type`
 
 Checks that `let` and `var` constants without an initialised value have an explicit type
+
+```tsx
+const a = 1 // Passes
+let b: number = 1 // Passes
+let c = 1 // Passes
+let d: number // Passes
+d = 1
+
+let e // Fails
+```
