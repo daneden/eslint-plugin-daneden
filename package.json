@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-daneden",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^3.5.0",
+    "eslint": "^7.4.0",
+    "mocha": "^8.0.1",
+    "typescript": "^3.9.6"
+  }
+}
