@@ -1045,6 +1045,11 @@ regexpp@^3.1.0:
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-3.1.0.tgz#206d0ad0a5648cffbdb8ae46438f3dc51c9f78e2"
   integrity sha512-ZOIzd8yVsQQA7j8GCSlPGXwg5PfmA1mrq0JP4nGhh54LaKN3xdai/vHUDu74pKwV8OxseMS65u2NImosQcSD0Q==
 
+req-all@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/req-all/-/req-all-2.0.0.tgz#30bd2b902647776f9252d0660004b5982b07c3a4"
+  integrity sha512-vnEsJ4JFU48k0JcxXQ7ifhWl3THzKqme/VfSnTvIUmnlREYvm39/KO3/Z2K0xKurf+1ByteXyOUIMRuORtTn/A==
+
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
