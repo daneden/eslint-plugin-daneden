@@ -1,5 +1,6 @@
-const reqAll = require("import-modules")
-
 module.exports = {
-  rules: reqAll("rules", { camelize: false }),
+  plugins: [],
+  rules: {
+    "explicit-let-type": require("./lib/rules/explicitLetType"),
+  },
 }
