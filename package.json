@@ -6,6 +6,7 @@
   "scripts": {
     "test": "mocha test/**/*.test.js"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "devDependencies": {
     "@typescript-eslint/parser": "^3.5.0",
     "eslint": "^7.4.0",
